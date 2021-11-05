@@ -1,3 +1,16 @@
+import { ActivyTable } from '../../components/ActivyTable'
+import { Header } from '../../components/Header'
+import { Summary } from '../../components/Summary'
+import { Container } from './style'
+
 export function Dashboard() {
-  return <h1>Dashboard</h1>
+  return (
+    <>
+      <Header />
+      <Container>
+        <Summary />
+        <ActivyTable />
+      </Container>
+    </>
+  )
 }

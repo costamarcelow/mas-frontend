@@ -2,7 +2,7 @@ import React from 'react';
 import Modal from 'react-modal';
 import {FiX} from 'react-icons/fi';
 import { useForm } from 'react-hook-form'
-import { Container, Error } from './styles'
+import { Container, Error } from './style'
 import api from '../../services/api';
 
 interface NewCourseUnitModalProps {

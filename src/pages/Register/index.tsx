@@ -1,4 +1,4 @@
-import {Container,Content,FormContainer, InputContainer, Error, Background} from './styles';
+import {Container,Content,FormContainer, InputContainer, Error, Background} from './style';
 import {FiArrowLeft, FiMail, FiLock, FiUser} from 'react-icons/fi';
 import { Link, useHistory } from 'react-router-dom';
 import { useForm } from 'react-hook-form'

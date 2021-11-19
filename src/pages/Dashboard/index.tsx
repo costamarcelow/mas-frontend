@@ -5,7 +5,7 @@ import { Summary } from '../../components/Summary';
 import {NewActivyModal} from '../../components/NewActivyModal';
 import {NewCourseUnitModal} from '../../components/NewCourseUnitModal';
 
-import {Container} from './styles'
+import {Container} from './style'
 
 export function Dashboard() {
 

@@ -1,5 +1,5 @@
 import { FiLogOut } from 'react-icons/fi';
-import { Container, Content } from './styles';
+import { Container, Content } from './style';
 import { useAuth } from '../../hooks/Auth'
 
 interface HeaderProps {
